@@ -24,8 +24,6 @@ public class MSApplication {
         registry = CSVUtil.getRegistry();
         msRegistryGenericNameModel = createModel(genericNames, registry);
 
-        nameOfCompanyWhichIsProducerAndLicenseHolderForMostNumberOfMSProducts();
-
     }
 
     public static void main(String[] args) {
