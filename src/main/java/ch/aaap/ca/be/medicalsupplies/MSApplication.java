@@ -1,14 +1,10 @@
 package ch.aaap.ca.be.medicalsupplies;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Function;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import ch.aaap.ca.be.medicalsupplies.data.CSVUtil;
 import ch.aaap.ca.be.medicalsupplies.data.MSGenericNameRow;
-import ch.aaap.ca.be.medicalsupplies.data.MSProductIdentity;
 import ch.aaap.ca.be.medicalsupplies.data.MSProductRow;
 import ch.aaap.ca.be.medicalsupplies.model.*;
 
